@@ -1,0 +1,159 @@
+#menu{
+    display: flex;
+    background-color: black;
+    justify-content: end;
+    padding: 10px;
+    padding-right: 5%
+
+}
+
+#menu span{
+    color: rgb(14, 97, 240);
+}
+
+#menu a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.5%;
+    margin-right: 2%;
+    color: gray;
+    font-size: small;
+}
+
+.menu-tabs:hover{
+    color: #000;
+}
+
+.navbar{
+    background-color: black;
+    padding-bottom: 0!important;
+    padding-top: 0 !important;
+}
+
+.navbar-dark .nav-link{
+    white-space: nowrap;
+    color: white !important;
+}
+
+.navbar-dark .nav-item{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.navbar-dark .nav-item.active,
+.navbar-dark .nav-item:focus,
+.navbar-dark .nav-item:hover{
+    background-color: white ;
+}
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:focus .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+        color: black !important;
+}
+
+#banner{
+    background: url(Images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: block;
+    overflow: visible;
+}
+
+.btn-white{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+}
+
+.btn-trans{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+#Cards{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2%;
+}
+
+.card{
+    /* margin: 0% 0.75%; */
+    padding: 0px !important;
+}
+
+#Options{
+    background-color: rgb(230, 230, 230);
+    /* padding: 0px 18%; */
+}
+
+#help-btn{
+    margin: 3% 0%;
+    font-size: 20px;
+    padding: 0.5% 3%;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+#col1{
+    background-color: rgb(38, 46, 82);
+}
+#col4{
+    background-color: rgb(18, 34, 74);
+}
+#col5{
+    background-color: rgb(34, 125, 199);
+}
+#col8{
+    background-color: rgb(19, 71, 84);
+}
+
+.grid-text{
+    padding: 5% 5% !important;
+    color: white;
+    /* width: 50px !important; */
+}
+
+.grid-text .heading{
+    font-size: 28px;
+}
+
+.grid-text .body{
+    font-size: 18px;
+    font-weight: 300;
+}
+.grid-img{
+    padding: 0px !important;
+    background-size: cover;
+    background-position: center;
+    /* width: 60% !important; */
+}
+
+#Footer{
+    background-color: rgb(230, 230, 230);
+    padding: 0px 18%;
+}
+
+#Sponsor{
+    padding: 0px 18%;
+}
+
+#Footer ul{
+    list-style-type: none;
+    /* list-style-position: outside !important; */
+    padding-left: 0;
+}
+
+#Footer p{
+    font-size: larger;
+}
+#Footer ul a{
+    color: rgb(50, 50, 50);
+}
